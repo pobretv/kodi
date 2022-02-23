@@ -25,6 +25,7 @@ try: nome = params.get('nome')[0]
 except: nome = params.get('nome')
 
 
+
 if modo == None or modo == 'inicio':
 	pobretv.pobretv().menu()
 elif modo == 'menuFilmes':
