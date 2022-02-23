@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.pobretv" name="Pobre.tv" provider-name="Pobre.tv" version="1.0.1">
+<addon id="plugin.video.pobretv" name="Pobre.tv" provider-name="Pobre.tv" version="1.0.2">
  <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="plugin.video.youtube" optional="true" />
@@ -12,8 +12,8 @@
  </extension>
  <extension point="xbmc.addon.metadata">
     <summary lang="en">Pobre.tv</summary>
-    <description lang="en">Addon site pobre.tv</description>
-    <description lang="en">Filmes, séries e animes no Kodi. </description>
+    <description lang="en">Filmes, séries e animes no Kodi. O addon ainda está em versão muito beta, atualizações em breve</description>
+    <description lang="en"></description>
     <disclaimer lang="en">Nem todo o conteúdo está disponível no addon</disclaimer>
     <language></language>
     <platform>all</platform>
