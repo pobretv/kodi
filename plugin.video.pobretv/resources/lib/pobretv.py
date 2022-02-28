@@ -16,11 +16,11 @@ else:
 class pobretv:
 
 	def __init__(self):
-		self.API = 'http://api-v1.pobre.tv/'
+		self.API = 'https://api-v1.pobre.tv/'
 		#str(base64.urlsafe_b64decode('aHR0cHM6Ly9tcmFwaS54eXov'))
-		self.API_SITE = 'http://api-v1.pobre.tv/'
+		self.API_SITE = 'https://api-v1.pobre.tv/'
 		#str(base64.urlsafe_b64decode('aHR0cHM6Ly9tcmFwaS54eXovYXBpbmV3Lw=='))#aHR0cDovL21wYXBpLm1sL2FwaS8=
-		self.SITE = 'http://api-v1.pobre.tv/'
+		self.SITE = 'https://api-v1.pobre.tv/'
 		#str(base64.urlsafe_b64decode('aHR0cDovL21ycGlyYWN5LmdxLw=='))
 	def definicoes(self):
 		controlo.addon.openSettings()
